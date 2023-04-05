@@ -21,9 +21,9 @@ pipeline {
                 sh 'echo "Deploying Code from Develop branch"'
            }
         }
-        stage {
-            sh 'echo "Welcome Olusola"'
-            sh 'echo "Welcome to Etech'
+           steps {
+               sh 'echo "Welcome Olusola"'
+               sh 'echo "Welcome to Etech'
         }
     }
 }
